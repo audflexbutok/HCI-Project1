@@ -5,7 +5,9 @@ The goal of this project is to find and asses a microwave interface.
 
 # Getting Started
 This is the microwave at my job. 
+
 ![image](https://user-images.githubusercontent.com/46502658/109369495-19ce2300-7862-11eb-8cc7-c03ca1d482bd.png)
+
 It has a reasonably simple interface, but some of the buttons are either confusing, never used, or both. Also, the handle is a terrible choice in an environment where gloves are used and sanitization is highly prioritized. 
 
 # Use Cases
