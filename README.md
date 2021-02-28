@@ -56,7 +56,7 @@ I wish that instead of a defrost button, it was easier to change the power level
 
 ![image](https://user-images.githubusercontent.com/46502658/109435745-a05d3e80-79e1-11eb-876d-cf100a1ad1ef.png)
 
-This is how I would personally change the microwave interface to look. I originally really did like the layout of the time control (numbered) buttons, but the addition of the knob meant that I would have to move things around a bit.
+This is how I would personally change the microwave interface to look. I originally really did like the layout of the time control (numbered) buttons, but the addition of the knob meant that I would have to move things around a bit. I also would put braille on the microwave like the original version of my work's microwave, but I couldn't find a good way to implement it in processing.
 
 # Justification
 For this project, I actually polled my coworkers about the microwave since I thought it would be interesting to hear from a group of people who all use the same microwave. I have summarized the statistics below.
