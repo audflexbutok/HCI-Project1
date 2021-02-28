@@ -13,7 +13,7 @@ This is the microwave at my job.
 
 ![image](https://user-images.githubusercontent.com/46502658/109370889-de365780-7867-11eb-99eb-08713081a5c7.png)
 
-It has a reasonably simple interface, but some of the buttons are either confusing, never used, or both. Also, the handle is a terrible choice in an environment where gloves are used and sanitization is highly prioritized. There is also no easy way to defrost food.
+It has a reasonably simple interface, but some of the buttons are either confusing, never used, or both. Also, the handle is a terrible choice in an environment where gloves are used and sanitization is highly prioritized. There is also no easy way to change the power level.
 
 # Use Cases
 Common uses:
