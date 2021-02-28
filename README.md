@@ -33,7 +33,12 @@ To defrost an item, simply open the microwave by pulling on the handle. Place th
 The microwave provides very little feedback. It beeps to let the user know that it is finished microwaving. It expects the user to know that they need to manually enter the time when using the defrost mode. Over all, the feedback is extremely minimal.
 
 # Criticisms
-As stated above, the fact that the times do not correctly correspond to the buttons is very frustrating and not intuitive at all. 
+As stated above, the fact that the times do not correctly correspond to the buttons is very frustrating and not intuitive at all. If the interface were more like this: 
+
+![image](https://user-images.githubusercontent.com/46502658/109436074-55442b00-79e3-11eb-9e64-5a9c2660cdb0.png)
+
+
+it may be acceptable.
 
 The SIGNAL button allows us to turn the microwave beep off. We have never, and will never use this button. Being alerted that the food is done cooking is crucial in a restaurant environment. This button simply takes up space on the screen.
 
@@ -54,7 +59,8 @@ I would change the handle to open the microwave into a mechanical button that is
 
 I wish that instead of a defrost button, it was easier to change the power level. Defrosting is just microwaving something at a lower power level, so the need for another button would be eliminated. It would also be easier to change the power level according to what you are microwaving. For example, ham has a tendency to change texture when microwaved at high power even for shorter periods of time. If I were able to microwave ham for a reasonable amount of time (30 seconds) with a lower power level, it would heat up better and not change texture. To replace the defrost setting, I would implement a power level knob. This knob would just have basic power levels (25%, 50%, 75%, 100%) but it would mean we can change the power levels faster for different kinds of food.
 
-![image](https://user-images.githubusercontent.com/46502658/109435745-a05d3e80-79e1-11eb-876d-cf100a1ad1ef.png)
+![image](https://user-images.githubusercontent.com/46502658/109436137-b1a74a80-79e3-11eb-968e-f811f37b780a.png)
+
 
 This is how I would personally change the microwave interface to look. I originally really did like the layout of the time control (numbered) buttons, but the addition of the knob meant that I would have to move things around a bit. I also would put braille on the microwave like the original version of my work's microwave, but I couldn't find a good way to implement it in processing.
 
