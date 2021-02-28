@@ -47,14 +47,16 @@ EXPRESS DEFROST allows you to pick a time that the microwave defrosts rather tha
 
 SELECTAPOWER and SELECTATIME are useless for us. With the way the power level is set up on this microwave, it would be a waste of time to change the power level, so we just don't. We also don't select the time since we usually need to microwave things for 10-40 seconds. However, I do think that it's essential for a microwave to be able to change the power level.
 
-I wish that instead of a defrost button, it was easier to change the power level. Defrosting is just microwaving something at a lower power level, so the need for another button would be eliminated. It would also be easier to change the power level according to what you are microwaving. For example, ham has a tendency to change texture when microwaved at high power even for shorter periods of time. If I were able to microwave ham for a reasonable amount of time (30 seconds) with a lower power level, it would heat up better and not change texture.
-
 # Improvements
 Personally, I am a fan of the ONE TOUCH functions. Being able to shut the microwave and quickly press a button corresponding to the time I need is actually fantastic and very quick. This is a good implementation for restaurant environments. I would keep this function, but change it to where the times on the button are more intuitive and corresponding to the button labels.
 
 I would change the handle to open the microwave into a mechanical button that is pushed. This will be more sanitary, as the handle is a more difficult shape and isn't always fast and easy to open. If I can just press in on the handle to open, I believe that would be faster for me. It will also be way easier to clean since it would just be a flat surface.
 
-Instead of having a defrost setting, I would implement a power level knob. This knob would just have basic power levels (25%, 50%, 75%, 100%) but it would mean we can change the power levels faster for different kinds of food. As I stated earlier, defrosting just microwaves things on a lower power level, so this function would replace the defrost button.
+I wish that instead of a defrost button, it was easier to change the power level. Defrosting is just microwaving something at a lower power level, so the need for another button would be eliminated. It would also be easier to change the power level according to what you are microwaving. For example, ham has a tendency to change texture when microwaved at high power even for shorter periods of time. If I were able to microwave ham for a reasonable amount of time (30 seconds) with a lower power level, it would heat up better and not change texture. To replace the defrost setting, I would implement a power level knob. This knob would just have basic power levels (25%, 50%, 75%, 100%) but it would mean we can change the power levels faster for different kinds of food.
+
+![image](https://user-images.githubusercontent.com/46502658/109435745-a05d3e80-79e1-11eb-876d-cf100a1ad1ef.png)
+
+This is how I would personally change the microwave interface to look. I originally really did like the layout of the time control (numbered) buttons, but the addition of the knob meant that I would have to move things around a bit.
 
 # Justification
 For this project, I actually polled my coworkers about the microwave since I thought it would be interesting to hear from a group of people who all use the same microwave. I have summarized the statistics below.
