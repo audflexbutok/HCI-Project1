@@ -10,18 +10,19 @@ This is the microwave at my job.
 
 ![image](https://user-images.githubusercontent.com/46502658/109370889-de365780-7867-11eb-99eb-08713081a5c7.png)
 
-It has a reasonably simple interface, but some of the buttons are either confusing, never used, or both. Also, the handle is a terrible choice in an environment where gloves are used and sanitization is highly prioritized. 
+It has a reasonably simple interface, but some of the buttons are either confusing, never used, or both. Also, the handle is a terrible choice in an environment where gloves are used and sanitization is highly prioritized. There is also no easy way to defrost food.
 
 # Use Cases
 Common uses:
 1) Microwaving small food items for 10 seconds to 1 minute.
-Rare uses:
-1) Defrosting items
-2) Microwaving anything for long periods of time.
-3) Changing the power level
-4) Microwaving something double quantity
+2) Defrosting food items.
 
-The interface does a good job of making the common use very easy and quick to accomplish.
+Rare uses:
+1) Microwaving anything for long periods of time.
+2) Changing the power level
+3) Microwaving something double quantity
+
+The interface does a good job of making the most common use very easy and quick to accomplish.
 
 # Sequence of Actions
 To microwave something, simply open the microwave by pulling on the handle. Place the food item inside, and then close the door. Then press one of the buttons 1-9 on the interface. The first buttons 1-4 will set the timer to 10, 20, 30, or 40 seconds. After that, it gets confusing. Button 5 sets the timer to 1 minute, button 6 sets it to 1 minute 15 seconds, button 7 sets it to 1 minute 45 seconds, button 8 sets it to 2 minutes, button 9 sets it to 3 minutes. This is unintuitive since most of the times do not correspond to the buttons in any way. This hasn't proved to be a significant issue in our environment since we usually use buttons 1-4 the most. After pressing one of the buttons 1-9 the microwave will start automatically, and will beep when it is finished microwaving.
@@ -38,15 +39,22 @@ The SIGNAL button allows us to turn the microwave beep off. We have never, and w
 
 The SET button is to reprogram the buttons above, but to do so you have to press that button and then go through a complicated sequence of buttons. While we could fix the issue of the times not corresponding to the button numbers, the interface makes it complicated to do so, so we never do it. 
 
-The CHECK button turns off the beep when the defrosting cycle is halfway done. For example, if you defrost something for 10 seconds, it will beep at 5 seconds. If you give it an odd number, it will beep on the ceiling of half the time. So a 13 second defrost would beep at 7 seconds for half the time. This is so you can check on the thing you're defrosting since some food is sensitive.
+The CHECK button turns off the beep when the defrosting cycle is halfway done. For example, if you defrost something for 10 seconds, it will beep at 5 seconds. If you give it an odd number, it will beep on the ceiling of half the time. So a 13 second defrost would beep at 7 seconds for half the time. This is so you can check on the thing you're defrosting since some food is sensitive. I also believe that if it is held down with one of the numerical buttons, you can check the time and power level assigned to that button.
 
 The DOUBLE QUANTITY button has the potential to be useful, but we don't use it much. I think it should stay since I'd assume other resturants would use this a lot.
 
 EXPRESS DEFROST allows you to pick a time that the microwave defrosts rather than just pressing a "1" to start the microwave.
 
-SELECTAPOWER and SELECTATIME are useless for us. It would be a waste of time to change the power level, so we don't do that. We also don't select the time since we usually need to microwave things for 10-40 seconds. However, I do think that it's essential for a microwave to be able to change the power level.
+SELECTAPOWER and SELECTATIME are useless for us. With the way the power level is set up on this microwave, it would be a waste of time to change the power level, so we just don't. We also don't select the time since we usually need to microwave things for 10-40 seconds. However, I do think that it's essential for a microwave to be able to change the power level.
+
+I wish that instead of a defrost button, it was easier to change the power level. Defrosting is just microwaving something at a lower power level, so the need for another button would be eliminated. It would also be easier to change the power level according to what you are microwaving. For example, ham has a tendency to change texture when microwaved at high power even for shorter periods of time. If I were able to microwave ham for a reasonable amount of time (30 seconds) with a lower power level, it would heat up better and not change texture.
 
 # Improvements
+Personally, I am a fan of the ONE TOUCH functions. Being able to shut the microwave and quickly press a button corresponding to the time I need is actually fantastic and very quick. This is a good implementation for restaurant environments. I would keep this function, but change it to where the times on the button are more intuitive and corresponding to the button labels.
+
+I would change the handle to open the microwave into a mechanical button that is pushed. This will be more sanitary, as the handle is a more difficult shape and isn't always fast and easy to open. If I can just press in on the handle to open, I believe that would be faster for me. It will also be way easier to clean since it would just be a flat surface.
+
+Instead of having a defrost setting, I would implement a power level knob. This knob would just have basic power levels (25%, 50%, 75%, 100%) but it would mean we can change the power levels faster for different kinds of food. As I stated earlier, defrosting just microwaves things on a lower power level, so this function would replace the defrost button.
 
 # Justification
 For this project, I actually polled my coworkers about the microwave since I thought it would be interesting to hear from a group of people who all use the same microwave. I have summarized the statistics below.
@@ -55,8 +63,10 @@ For this project, I actually polled my coworkers about the microwave since I tho
 ![image](https://user-images.githubusercontent.com/46502658/109370389-b0e8aa00-7865-11eb-8289-945321537b23.png)
 
 When I asked my coworkers if they found our microwave to be confusing to use (for our most frequent use cases), every one of them said that they didn't. I provided them with several reasons why they didn't find the microwave confusing to use (they were all presented with the same reasons, so it is consistent). The reasons were:
+
 1) I could tell how to use the microwave just by looking at its interface (meaning the interface is intuitive)
 2) I was trained to use this microwave as part of my employee onboarding, so I never had to wonder how to use it
+
 All employees responded that they knew how to use the microwave as a result of their training, so they never had to question its usage. I think that brings up some major points about commercial/industrial microwaves vs residential microwaves.
 
 Commercial microwaves are meant to be used in a restaurant setting. They are more powerful, more efficient, and engineered for speed and heavy usage. Residential microwaves, on the other hand, are less powerful, less efficient, and are not made to be used as heavily as a restaurant microwave would be. I think that the different use cases can absolutely change the way the interface is implemented on the machine. 
