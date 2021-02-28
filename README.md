@@ -18,10 +18,12 @@ It has a reasonably simple interface, but some of the buttons are either confusi
 # Use Cases
 Common uses:
 
+
 1) Microwaving small food items for 10 seconds to 1 minute.
 2) Defrosting food items.
 
 Rare uses:
+
 
 1) Microwaving anything for long periods of time.
 2) Changing the power level
